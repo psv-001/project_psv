@@ -9,7 +9,7 @@ def create_app(app_name, config_filename):
 
     return app
 
-app_name = 'project'
+app_name = 'project_psv'
 appp = create_app(app_name, "config")
 Compress(appp)
 MANAGER = Manager(appp)

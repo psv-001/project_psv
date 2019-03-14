@@ -5,7 +5,7 @@ RUN apk update && apk add postgresql-dev gcc python3-dev musl-dev && pip3 instal
 #RUN apt-get update
 # Set some environment variables for PIP installation, db management and NewRelic
 #ENV FLASK_CONFIG='development' 
-ENV DATABASE_URL='postgres://postgres:@postgres/postgres'
+ENV DATABASE_URL='postgres://postgres:pwd@localhost/project_psv'
 # Expose a port for gunicorn to listen on
 EXPOSE 8000
 

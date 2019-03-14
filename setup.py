@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 setup(
-    name='project',
+    name='project_psv',
     description='',
     version='0.0.1',
     packages=find_packages(),
